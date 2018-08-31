@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: brook
+    password: brook
+    url: jdbc:mysql://192.168.2.101/apkserver?characterEncoding=utf-8&useSSL=false
+
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  servlet:
+    context-path: /apkServer
+
+projectUrl:
+  apkserver: apkserver
+
+apkpath:
+  apkrootpath: F://apk
